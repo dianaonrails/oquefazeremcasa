@@ -14,6 +14,14 @@ body{
     display:none;
 }
 
+
+.image{
+    width: 25%;
+    display: block;
+    margin: 0 auto;
+}
+
+
 .random{
     font-size:34px;
     text-align:center;
@@ -24,10 +32,11 @@ body{
 
 .sugestions{
     font-size:22px;
-     text-align: left;
+     text-align: center;
     list-style: none;
     font-family: 'Lato', sans-serif;
-    margin-top: 8%;
+    margin-top: 4%;
+    padding: 0;
 }
 
 .sugestions li{
@@ -45,11 +54,13 @@ body{
 }
 
 #footer{
-    position: absolute;
+  position: fixed;
+  left: 0;
   bottom: 0;
   width: 100%;
-  height: 3rem; 
+  padding: 10px;
   background: #e1e1e1;
+  display: inline-block;
 
 }
 
